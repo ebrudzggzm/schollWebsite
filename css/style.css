@@ -374,3 +374,56 @@ footer ul li a:hover {
     border-top: 1px solid var(--color-bg2);
 }
    /* FOOTER END */
+
+   /* MEDIA QUERIES (TABLETS)  */
+
+   @media screen and (max-width:1024px) {
+   .container {
+    width: var(--container-width-md);    
+   }
+   h1 {
+    font-size: 2.2rem;
+   }
+   h2 {
+    font-size: 1.7rem;
+   }
+   h3 {
+    font-size: 1.4rem ;
+   }
+   h4 {
+    font-size: 1.2rem;
+   }
+   
+
+   /* CATEGORIES */
+   .categories {
+    height: auto;
+   }
+   .categories_container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+   }
+   .categories_left {
+    margin-right: 0;
+   }
+
+   /* POPULAR COURSES */
+   .courses {
+    margin-top: 0;
+   }
+   .courses_container {
+    grid-template-columns: 1fr 1fr;
+   }
+  /* FAQS */
+  .faqs_container {
+    grid-template-columns: 1fr;
+  }
+ .faq {
+    padding: 1.5rem;
+ }
+
+ /* FOOTER */
+ .footer_container {
+    grid-template-columns: 1fr 1fr;
+ }
+}
